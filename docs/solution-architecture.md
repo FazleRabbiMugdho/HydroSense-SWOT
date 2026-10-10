@@ -14,21 +14,21 @@
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│  TIER 1 — Data Ingestion                                        │
-│  SWOT L2 HR RiverSP (PO.DAAC)  ·  GPM IMERG Early Run V07     │
-│  BWDB/FFWC Gauge Series  ·  SWORD v16 / HydroSHEDS             │
+│  TIER 1 — Data Ingestion                                         │
+│  SWOT L2 HR RiverSP (PO.DAAC)  ·  GPM IMERG Early Run V07        │
+│  BWDB/FFWC Gauge Series  ·  SWORD v16 / HydroSHEDS               │
 ├──────────────────────────────────────────────────────────────────┤
-│  TIER 2 — Pre-processing & ETL                                  │
-│  Quality gating  ·  Slope filter  ·  IMERG sub-basin aggregation│
-│  Gauge alignment (UTC)  ·  Fixture generation                   │
+│  TIER 2 — Pre-processing & ETL                                   │
+│  Quality gating  ·  Slope filter  ·  IMERG sub-basin aggregation │
+│  Gauge alignment (UTC)  ·  Fixture generation                    │
 ├──────────────────────────────────────────────────────────────────┤
-│  TIER 3 — Core Analytical Engine                                │
-│  Manning roughness calibration  ·  Muskingum-Cunge routing      │
-│  Harvest flag logic  ·  Rainfall-only baseline  ·  Metrics      │
+│  TIER 3 — Core Analytical Engine                                 │
+│  Manning roughness calibration  ·  Muskingum-Cunge routing       │
+│  Harvest flag logic  ·  Rainfall-only baseline  ·  Metrics       │
 ├──────────────────────────────────────────────────────────────────┤
-│  TIER 4 — User Delivery Interface                               │
-│  Map-first dashboard  ·  Time slider  ·  Hydrograph             │
-│  Bilingual harvest flag (EN/বাংলা)  ·  Limits panel             │
+│  TIER 4 — User Delivery Interface                                │
+│  Map-first dashboard  ·  Time slider  ·  Hydrograph              │
+│  Bilingual harvest flag (EN/বাংলা)  ·  Limits panel               │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
