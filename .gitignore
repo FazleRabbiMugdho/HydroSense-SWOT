@@ -1,0 +1,102 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / cx_Freeze
+*.manifest
+*.spec
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# IDEs & Operating System Artifacts
+# ==============================================================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+
+# ==============================================================================
+# Jupyter Notebooks & Streamlit
+# ==============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.streamlit/secrets.toml
+
+# ==============================================================================
+# Geospatial & Big Data Files (Keep git repo lightweight)
+# Store large raw NetCDF, HDF5, GeoTIFF, and intermediate files locally
+# ==============================================================================
+data/raw/
+data/processed/
+data/interim/
+data/downloads/
+
+# Large scientific data binaries
+*.nc
+*.nc4
+*.h5
+*.hdf5
+*.grib
+*.grib2
+*.tif
+*.tiff
+
+# Exceptions: keep sample/fixture files inside data/fixtures if explicitly added
+!data/fixtures/
+!data/fixtures/**
+!**/README.md
+!**/.gitkeep
+
+# ==============================================================================
+# Testing & Logs
+# ==============================================================================
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
